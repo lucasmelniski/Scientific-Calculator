@@ -1,0 +1,43 @@
+.scientificoff{
+    position: relative;
+    left: -1240px;  
+    top: -320px;
+    height: 40px;
+    width: 60px;
+    border-radius:5px;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(2,100%);
+    grid-template-rows: 48px 48px 48px 48px 48px;
+}
+.scientificon{
+    position: relative;
+    left: 240px;  
+    top: -320px;
+    height: 40px;
+    width: 60px;
+    border-radius:5px;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(2,100%);
+    grid-template-rows: 48px 48px 48px 48px 48px 48px;
+}
+.toggle{
+    height: 48px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    background-color: #0009;   
+    margin: 0px, 0px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2.1em;
+    color: #ca0095;
+    
+}
+.toggle:active {
+    background-color: #0004;   
+}
